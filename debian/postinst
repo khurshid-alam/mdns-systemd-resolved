@@ -1,0 +1,4 @@
+#!/bin/sh
+
+systemctl restart systemd-resolved.service
+systemctl reload NetworkManager.service
