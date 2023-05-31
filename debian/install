@@ -1,0 +1,4 @@
+systemd/resolved.conf.d/mdns-systemd-resolved.conf /etc/systemd/resolved.conf.d/
+NetworkManager/conf.d/mdns.conf /etc/NetworkManager/conf.d/
+dnssd/sftp.dnssd /etc/systemd/dnssd/
+dnssd/ssh.dnssd /etc/systemd/dnssd/
