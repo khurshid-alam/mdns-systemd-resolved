@@ -1,5 +1,5 @@
 Source: mdns-systemd-resolved
-Section: unknown
+Section: net
 Priority: optional
 Maintainer: Khurshid Alam <khurshid.alam@ed25519.com>
 Build-Depends: debhelper-compat (= 12)
@@ -12,4 +12,5 @@ Package: mdns-systemd-resolved
 Architecture: any
 Depends: systemd, network-manager, libnss-systemd, ${shlibs:Depends}, ${misc:Depends}
 Description: mdns multicast dns on local network with systemd-resolved
- This is a small package to install necessary files to enable & broadcast mdns multicast dns on local network with systemd-resolved (>=244) & Networkmanager (>=1.22) without avahi. 
+ This is a small package to install necessary files to enable & broadcast mdns multicast dns on 
+ local network with systemd-resolved (>=244) & Networkmanager (>=1.22) without avahi. 
